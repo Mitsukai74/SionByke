@@ -1,0 +1,22 @@
+.cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    margin: 10px;
+    background-color:aliceblue;
+}
+.buscar {
+    margin: 20px;
+    width: 150px;
+    height: 25px;
+}
+header .login {
+    width: 150px;
+    height: 25px;
+    font-size: medium;
+    border-radius: 8px;
+}  
+header .login:hover {
+    font-weight: bold;
+}
