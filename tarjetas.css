@@ -1,0 +1,58 @@
+.cascos {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem o o 3rem;
+}
+.cascosE {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+    width: 16%;
+}
+.casco__imagen {
+    height: 170px;
+}
+.casco__titulo {
+    font-size: 1.4375rem;
+}
+.casco__descripcion {
+    font-size: 1.1875rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+.casco__boton {
+    background: #8d0606;
+    border: none;
+    border-radius: 5px;
+    color:#fdfdfd;
+    padding: 1rem;
+    font-weight: bold;
+}
+.maletero {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem o o 3rem;
+}
+.maleteroC {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+    width: 16%;
+}
+.maletero__imagen {
+    height: 170px;
+}
+.maletero__titulo {
+    font-size: 1.4375rem;
+}
+.maletero__descripcion {
+    font-size: 1.1875rem;
+    line-height: 1.5;
+    text-align: justify;
+}
