@@ -21,5 +21,14 @@ header .login:hover {
     font-weight: bold;
 }
 .banner_img {
-    margin-left: 20px;
+    height: calc(100vh - 71px);    
+    width: 100%;
 }
+.banner_sobre {
+    width: 100%;    
+    font-size: 2.0625rem;
+    color: #1a0663;
+    text-align: center; 
+    margin: 10px;                   
+}
+
