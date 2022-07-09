@@ -20,3 +20,6 @@ header .login {
 header .login:hover {
     font-weight: bold;
 }
+.banner_img {
+    margin-left: 20px;
+}
