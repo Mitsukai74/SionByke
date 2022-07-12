@@ -31,4 +31,19 @@ header .login:hover {
     text-align: center; 
     margin: 10px;                   
 }
+.contacto {
+    display: flex;
+    background-color: #c2d2dd
+}
+.menu__ul {
+    display:block
+}
+.menu__li {
+    list-style: none;
+}
+.menu__a {
+    color: #808080;
+    margin-right: 0.25rem;
+    text-decoration: none;
+}
 

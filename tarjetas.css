@@ -2,7 +2,7 @@
     background-color: #ffffff;
     display: flex;
     flex-wrap: wrap;
-    padding: 3rem o o 3rem;
+    padding: 3rem 0 0 3rem;
 }
 .cascosE {
     background: #fdfdfd;
@@ -10,7 +10,7 @@
     flex-direction: column;
     margin-bottom: 3rem;
     margin-right: 3rem;
-    width: 16%;
+    width: 20%;
 }
 .casco__imagen {
     height: 170px;
@@ -21,7 +21,7 @@
 .casco__descripcion {
     font-size: 1.1875rem;
     line-height: 1.5;
-    text-align: justify;
+    text-align:justify;
 }
 .casco__boton {
     background: #8d0606;
@@ -35,7 +35,7 @@
     background-color: #ffffff;
     display: flex;
     flex-wrap: wrap;
-    padding: 3rem o o 3rem;
+    padding: 3rem 0 0 3rem;
 }
 .maleteroC {
     background: #fdfdfd;
@@ -43,7 +43,7 @@
     flex-direction: column;
     margin-bottom: 3rem;
     margin-right: 3rem;
-    width: 16%;
+    width: 20%;
 }
 .maletero__imagen {
     height: 170px;
