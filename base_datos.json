@@ -1,0 +1,9 @@
+{
+    "usuario":[
+        {
+            "correo":"admin@hotmail.com",
+            "pass":"1234",
+            "id":1
+        }
+    ]
+}
