@@ -8,12 +8,15 @@
     <header class="cabecera">
         <img src="./imagenes/logo.jpg" alt="">
     </header>
-    <body>
+    <body class="body_login">
         <div class="login">
             <h2 class="login__titulo">Iniciar Sesión</h2>
-            <input class="correopass" type="email" placeholder="Escriba su correo electrónico">
-            <input class="correopass" type="password" placeholder="Escriba su contraseña">
-            <button class="entrar">Entrar</button>
+            <form class="login__form" action="" method="post">
+                <input class="correopass" type="email" id="correo" placeholder="Escriba su correo electrónico" required>
+                <input class="correopass" type="password" id="clave" placeholder="Escriba su contraseña" required>
+                <input type="submit" class="entrar" value="Entrar">
+            </form>
+            
         </div>
         
 
