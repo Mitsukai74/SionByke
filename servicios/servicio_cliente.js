@@ -4,6 +4,7 @@ http.open("GET","http://localhost:3000/usuario");
 http.send();
 
 http.onload = () => {
-    const data=http.response;
-    console.log(data);
+    const data=JSON.parse(http.response);
+    console.log(data);    
+
 }
