@@ -10,5 +10,5 @@ const crearProducto=(img,nombre,descrip) => {
 };
 
 export const productServices = {
-    crearProducto;
-}
+    crearProducto,
+};

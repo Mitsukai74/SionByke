@@ -10,4 +10,4 @@ formulario.addEventListener("submit", (evento) => {
     productServices.crearProducto(imagen,nombre,descrip).then( respuesta => {
         console.log(respuesta);
     }).catch(err => console.log( err));
-})
+});
