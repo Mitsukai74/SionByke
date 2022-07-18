@@ -1,10 +1,14 @@
-//para hacer la conexión entre el back y el frot
-const http=new XMLHttpRequest();
-http.open("GET","http://localhost:3000/usuario");
-http.send();
+//para hacer la conexión entre el back y el front
+const crearProducto=(img,nombre,descrip) => {
+    return fetch("http://localhost:3000/producto", {
+        method:"POST",
+        headers: {
+            "Content-Type":"application/json"
+        },
+        body: JSON.stringify({imagen,nombre,descipcion,id: uuid.v4()})
+    })
+};
 
-http.onload = () => {
-    const data=JSON.parse(http.response);
-    console.log(data);    
-
+export const productServices = {
+    crearProducto;
 }

@@ -1,8 +1,9 @@
 {
-    "usuario":[
+    "producto":[
         {
-            "correo":"admin@hotmail.com",
-            "pass":"1234",
+            "imagen":"admin@hotmail.com",
+            "nombre":"Casco GW",
+            "descripcion":"Azul para MTB",
             "id":1
         }
     ]
