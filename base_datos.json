@@ -1,10 +1,16 @@
 {
-    "producto":[
-        {
-            "imagen":"admin@hotmail.com",
-            "nombre":"Casco GW",
-            "descripcion":"Azul para MTB",
-            "id":1
-        }
-    ]
+  "producto": [
+    {
+      "imagen": "admin@hotmail.com",
+      "nombre": "Casco GW",
+      "descripcion": "Azul para MTB",
+      "id": 1
+    },
+    {
+      "imagen": "www.imagenes,com_sdfgfg55",
+      "nombre": "Casco POC",
+      "descripcion": {},
+      "id": "55ecd10d-8f0c-4fde-bae4-3a0dd35e2df2"
+    }
+  ]
 }
