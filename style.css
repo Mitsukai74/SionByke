@@ -1,4 +1,9 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
 .cabecera {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -7,23 +12,26 @@
     background-color:aliceblue;
     height: calc(15vh - 20px);
 }
-.buscar {
+.buscar {    
     margin: 20px;
     width: 150px;
     height: 25px;
 }
 header .login {
-    width: 150px;
-    height: 25px;
-    font-size: medium;
+    width: 9rem;
+    height: 2.5rem;
+    font-size: 16px;
     border-radius: 8px;
 }  
 header .login:hover {
     font-weight: bold;
 }
 .banner_img {
-    height: calc(100vh - 71px);    
+    height: calc(100vh - 71px)
+    position: static;    
+    justify-content: center;    
     width: 100%;
+    
 }
 .banner_sobre {
     width: 100%;    
