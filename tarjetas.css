@@ -13,15 +13,24 @@
     width: 20%;
 }
 .casco__imagen {
-    height: 170px;
+    width: 13rem;
+    height: 10.8rem;
+    display: flex;
 }
 .casco__titulo {
-    font-size: 1.4375rem;
+    /*font-size: 1.4375rem;*/
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .casco__descripcion {
-    font-size: 1.1875rem;
+    /*font-size: 1.1875rem;
     line-height: 1.5;
-    text-align:justify;
+    text-align:justify;*/
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .casco__boton {
     background: #8d0606;
@@ -49,10 +58,14 @@
     height: 170px;
 }
 .maletero__titulo {
-    font-size: 1.4375rem;
+    /*font-size: 1.4375rem;*/
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .maletero__descripcion {
-    font-size: 1.1875rem;
-    line-height: 1.5;
-    text-align: justify;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

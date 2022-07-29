@@ -27,7 +27,7 @@ header .login:hover {
     font-weight: bold;
 }
 .banner_img {
-    height: calc(100vh - 71px)
+    height: calc(100vh - 71px);
     position: static;    
     justify-content: center;    
     width: 100%;
