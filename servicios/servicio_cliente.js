@@ -1,7 +1,7 @@
-const crearnuevoProducto = (imagen,nombre,descipcion) => {
+const crearnuevoProducto = (imagen,nombre,descripcion) => {
 const linea=document.createElement("div");
 const contenido =    
-        `<img alt="casco Scott" class="casco__imagen" src="${imagen}"/>
+    `<img alt="casco Scott" class="casco__imagen" src="${imagen}"/>
         <div class="casco__contenido">
             <h4 class="casco__titulo">${nombre}</h4>
             <p class="casco__descripcion">${descipcion}</p>

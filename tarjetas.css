@@ -18,16 +18,12 @@
     display: flex;
 }
 .casco__titulo {
-    /*font-size: 1.4375rem;*/
     font-weight: bold;
     font-size: 17px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.casco__descripcion {
-    /*font-size: 1.1875rem;
-    line-height: 1.5;
-    text-align:justify;*/
+.casco__descripcion {    
     font-size: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -55,10 +51,11 @@
     width: 20%;
 }
 .maletero__imagen {
-    height: 170px;
+    width: 13rem;
+    height: 10.8rem;
+    display: flex;
 }
-.maletero__titulo {
-    /*font-size: 1.4375rem;*/
+.maletero__titulo {    
     font-weight: bold;
     font-size: 17px;
     margin-top: 10px;
